@@ -1,0 +1,34 @@
+
+RELATIVE PATH : ./ --> current directory
+              : ../ --> parent directory
+              : ../../ --> grand parent directory
+              : ./../../ --> parent directory
+ABSOLUTE PATH : C:\Users\Lenovo\Des
+
+
+
+//when you want to achive data persistence, we required file or database
+//to store data permanently in form of file or database called data persistence....
+
+//file --> major we have 3 operations
+1) open file
+2) read/write file
+3) close file
+
+
+
+open file : function open() --> 2 params are required 1st is file name and 2nd is mode
+
+mode: is to define the purpose of file opening
+1)r --> read mode
+2)w --> write mode(if file is not exist then create new file otherwise overwrite existing file)
+3)a --> append mode
+4)r+ --> read and write mode
+5)w+ --> write and read mode
+6)a+ --> append and read mode
+7)x --> exclusive mode (if file is not exist then create new file otherwise throw error)
+
+//write file : function write() -->
+
+
+inheritance:
